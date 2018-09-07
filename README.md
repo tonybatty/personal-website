@@ -6,7 +6,7 @@ Throughout the course you will produce projects which will demonstrate the skill
 
 For this weekend project, create a personal website which should contain some interesting info about you, what you are working on and what you would like to do in future.
 
-We would like to see clean and well structure HTML and CSS. Feel free to include any images and cool fonts from Google Fonts. Avoid using external frameworks and libraries. Focus on practicing your HTML and CSS skills.
+We would like to see clean and well structured HTML and CSS. Feel free to include any images and cool fonts from Google Fonts. Avoid using external frameworks and libraries. Focus on practicing your HTML and CSS skills.
 
 Add links to any public social media accounts such as Twitter, LinkedIn or your blog. Avoid including Facebook or any other social media is overly personal.
 
