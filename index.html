@@ -8,51 +8,75 @@
   <title>My Personal Website</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
   <header class="masthead">
+      
     <div class="masthead__title">
       <h1>Hello! My name is Tony.</h1>
     </div>
     
     <div class="masthead__title-info">
-      <p>I am an aspiring web developer currently attending <br> Constructor Labs Full-Stack web developer course.</p>
+      <p>I'm a Full-Stack Web Developer</p>
     </div>
-    </header>
+ </header>
 
   <main>
       <nav class="nav">
           <ul class="nav__items">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         
         <div class="content">
-          <div class="about">
+
+          <div class="about" a id="about">
             <h2>ABOUT</h2>
             <div class="about__items">
               <img src="images/about.png">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec pellentesque, neque nec scelerisque vestibulum, felis lacus volutpat tortor, a laoreet purus turpis vitae quam.</p>
-            </div>      
-          <div class="portfolio">
+            </div>
+          </div>   
+
+          <div class="portfolio" a id="portfolio">
             <h2>PORTFOLIO</h2>
-
-            <div class=""
-
-          </div>
+            <div class="container">
+              <div class="box box1">
+                <img src="images/photo1.jpg">
+              </div>
+              <div class="box box2">
+                  <img src="images/photo1.jpg">
+              </div>
+              <div class="box box3">
+                  <img src="images/photo1.jpg">
+              </div>
+              <div class="box box4">
+                  <img src="images/photo1.jpg">
+              </div>
+              <div class="box box5">
+                  <img src="images/photo1.jpg">
+              </div>
+              <div class="box box6">
+                  <img src="images/photo1.jpg">
+              </div>
+            </div>
         </div>
-
-
-
   </main>
 
   <footer class="footer">
-    <div class="contact">
+    <div class="contact" a id="contact">
       <h2>CONTACT</h2>
+
+      <div class="contact-form">
+            <input type="text" id="name" name="name" placeholder="Your name" style="width:100%">
+            <input type="email" id="email" name="email" placeholder="Your Email Address" style="width:100%"">
+            <textarea id="subject" name="message" placeholder="Type your message here.." style="width:100%; height:200px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
     </div>
+
   </footer>
 
 </body>
