@@ -3,7 +3,7 @@
 }
 
 h1 {
-  font-size: 24mpx;
+  font-size: 24px;
   font-family: 'Montserrat', sans-serif;
   color: #FF5107;
   text-shadow: 1px 1px 2px #000000;
@@ -42,7 +42,7 @@ body {
 
 header {
   width: 100%;
-  height: 90vh;
+  height: 85vh;
 }
 
 .masthead {
@@ -79,11 +79,11 @@ header {
 
 /* Section 1B: Nav */
 
-.nav__items {
+.nav {
   /* background-color: #06447F; */
   display: flex;
   justify-content: space-evenly;
-  height: 10vh;
+  height: 15vh;
   align-items: center;
   background-color: #d6d7dc;
 }
@@ -98,6 +98,26 @@ nav ul {
   margin:0;
   padding:0;
 }
+
+/* Nav Buttons */
+a.button1{
+  display:inline-block;
+  padding:5px 20px;
+  border:1px solid black;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:black;
+  text-align:center;
+  transition: all 0.2s;
+  }
+  a.button1:hover{
+  color:#FC6525;
+  border: 1px solid #FC6525;
+  }
 
 nav ul li{
   list-style: none;
@@ -171,34 +191,6 @@ main {
 
 }
 
-.box1 {
-  background-color: red;
-}
-
-.box2 {
-  background-color: orange;
-}
-
-.box3 {
-  background-color: yellow;
-}
-
-.box4 {
-  background-color: green;
-}
-
-.box5 {
-  background-color: blue;
-}
-
-.box6 {
-  background-color: indigo;
-}
-
-.box7 {
-  background-color: violet;
-}
-
 /* Section 4: Contact */
 
 footer {
@@ -227,6 +219,16 @@ footer h2{
   margin: 10px 0;
 }
 
+.contact-form a.button1{
+  border:1px solid white;
+  color:white;
+  }
+
+.contact-form a.button1:hover{
+  color:#FC6525;
+  border: 1px solid #FC6525;
+}
+
 /* Tablet Layout */
 @media (min-width: 768px) {
 
@@ -235,7 +237,7 @@ footer h2{
   }  
   
   .masthead {
-   height: 90vh;
+   height: 85vh;
   }
 
 
@@ -283,7 +285,7 @@ footer h2{
   }  
   
   .masthead {
-   height: 90vh;
+   height: 85vh;
   }
 
   h1 {
