@@ -80,7 +80,6 @@ header {
 /* Section 1B: Nav */
 
 .nav {
-  /* background-color: #06447F; */
   display: flex;
   justify-content: space-evenly;
   height: 15vh;
@@ -127,13 +126,8 @@ nav ul li{
 }
 
 /* Section 2: About */
-
 main {
   flex:1;
-}
-
-.content {
-  /* margin-top: 50px; */
 }
 
 .about {
@@ -171,9 +165,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  
+
   margin-bottom: 50px;
-  /* margin: 0px 40px 40px 40px; */
 }
 
 .container img {
@@ -240,13 +233,17 @@ footer h2{
    height: 85vh;
   }
 
+  p {
+    font-size: 16px;
+  }
+
 
   h1 {
     font-size: 50px;
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
 
   .masthead__title-info p{
@@ -288,12 +285,16 @@ footer h2{
    height: 85vh;
   }
 
+  p {
+    font-size: 18px;
+  }
+
   h1 {
     font-size: 65px;
   }
   
   h2 {
-    font-size: 24px;
+    font-size: 28px;
   }
 
   .masthead__title-info p{
